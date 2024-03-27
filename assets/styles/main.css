@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hhh{
+    box-shadow: 0 2px 0 0 #f1f1f1 ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.nav__left ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav__tel {
+    background: #101010;
+    color: #fff;
+    padding: 12px 24px 12px 24px;
+    border-radius: 6px;
+}
+
+.showcase {
+    display: flex;
+    gap: 5%;
+    margin-top: 82px;
+}
+
+.showcase>div {
+    flex: 1;
+}
+
+.showcase h1 {
+    font-size: 56px;
+    color: #101010;
+    line-height: 78px;
+}
+
+.showcase__right iframe{
+    height: 334px;
+    border-radius: 6px;
+}
+header p,
+main p {
+    color: #636F87 ;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 20px 0 50px;
+}
+
+.showcase button{
+    padding: 15px 40px 15px 40px;
+    background: #1AAB7B;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-bottom: 110px;
+}
+
+main{
+    background: #F2F4F6;
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 80px 0 40px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    row-gap: 32px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 32%;
+    background: #fff;
+    padding: 40px 50px 40px 50px;
+    border-radius: 6px;
+    border: 2px solid #E1E7ED;
+    
+}
+
+h3{
+    font-size: 32px;
+}
+
+.card>a{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.card:hover {
+    color: #fff;
+    background: #1AAB7B;
+}
+
+.card:hover p {
+    color: #fff;
+}
+
+.card:hover a {
+    text-decoration: underline;
+}
+
+
+
